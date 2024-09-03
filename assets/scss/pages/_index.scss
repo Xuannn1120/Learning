@@ -1,0 +1,16 @@
+.banner {
+  .carousel-inner {
+    border-radius: 80px;
+
+    .text {
+      border-radius: 100px;
+      background-color: white;
+      &-tag {
+        border-radius: 100px;
+      }
+      a h1 {
+        border-radius: 0px 100px 100px 0px;
+      }
+    }
+  }
+}

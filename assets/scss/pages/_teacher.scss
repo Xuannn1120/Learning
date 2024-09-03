@@ -1,0 +1,44 @@
+.intro {
+  .teacher {
+    left: 100px;
+    border-radius: 1000px;
+  }
+  ul {
+    padding: 0px;
+  }
+  .desc {
+    font-size: 14px;
+    @include desktop {
+      font-size: 16px;
+    }
+  }
+  h1 {
+    font-size: 32px;
+    @include desktop {
+      font-size: 48px;
+    }
+  }
+}
+.class {
+  padding-bottom: 200px;
+  h2 {
+    font-size: 20px;
+    @include desktop {
+      font-size: 24px;
+    }
+  }
+  i {
+    color: #f6bd2b;
+    font-size: 12px;
+  }
+  .tag {
+    position: absolute;
+    right: 175px;
+    top: 16px;
+  }
+  .tag-sm {
+    position: absolute;
+    right: 400px;
+    top: 16px;
+  }
+}
